@@ -1,0 +1,4 @@
+plugins {
+    // Android Gradle Plugin 8.1.4 works with Gradle 8.0 and requires JDK 17.
+    id 'com.android.application' version '8.1.4' apply false
+}

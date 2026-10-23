@@ -1,0 +1,31 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FFF7FB">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:id="@+id/formTitle" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Add ingredient" android:textSize="25sp"
+            android:textStyle="bold" android:textColor="#B83273" android:paddingBottom="18dp"/>
+        <EditText android:id="@+id/nameInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Ingredient name (e.g. eggs)"
+            android:inputType="textCapSentences"/>
+        <EditText android:id="@+id/quantityInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Quantity (e.g. 4)"
+            android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/unitInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Unit (e.g. pieces, g, ml)"
+            android:inputType="textCapSentences"/>
+        <EditText android:id="@+id/expiryInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Expiry date (optional: YYYY-MM-DD)"
+            android:inputType="text"/>
+        <Button android:id="@+id/saveButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Save ingredient"
+            android:textColor="#FFFFFF" android:background="@drawable/pink_button"
+            android:layout_marginTop="16dp"/>
+        <Button android:id="@+id/deleteButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Delete ingredient"
+            android:textColor="#FFFFFF" android:background="@drawable/pink_button"
+            android:layout_marginTop="8dp" android:visibility="gone"/>
+        <Button android:id="@+id/cancelButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Cancel"/>
+    </LinearLayout>
+</ScrollView>

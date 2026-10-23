@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="20dp" android:background="#FFF7FB">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Settings" android:textSize="25sp" android:textStyle="bold"
+        android:textColor="#B83273" android:paddingBottom="18dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Pantry preferences" android:textSize="18sp" android:textStyle="bold"
+        android:textColor="#29232A"/>
+    <Switch android:id="@+id/expirySwitch" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Show expiry reminder message"
+        android:textColor="#29232A" android:paddingTop="14dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="This student project stores pantry data locally on this device using SQLite."
+        android:textColor="#756C73" android:paddingTop="18dp"/>
+    <Button android:id="@+id/backButton" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Back to pantry" android:layout_marginTop="18dp"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <color name="pink">#D94F91</color>
+    <color name="pink_light">#FFF0F7</color>
+    <color name="pink_border">#F2B8D3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_dark">#29232A</color>
+    <color name="grey">#756C73</color>
+</resources>
