@@ -1,4 +1,4 @@
-package za.co.student.smartpantry;
+package za.co.student.smartpantry; 
 
 import android.os.Bundle;
 import android.widget.Button;
