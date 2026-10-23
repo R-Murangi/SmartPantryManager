@@ -1,6 +1,6 @@
 # Smart Pantry Manager
 
-A beginner-level Android application written in Java for tracking pantry ingredients and suggesting recipes that can be made with the ingredients already available.
+A beginner-level Android application written in Java for tracking pantry ingredients and suggesting recipes that can be made with the ingredients that are already available.
 
 ## Technology
 - Java and Android Studio
