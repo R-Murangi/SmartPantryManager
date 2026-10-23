@@ -19,7 +19,7 @@ A beginner-level Android application written in Java for tracking pantry ingredi
 - White and pink interface
 
 ## Requirements
-Install Android Studio and use its Android SDK setup wizard. Open this project folder in Android Studio. Allow Gradle to sync, create an Android Virtual Device (AVD) from Device Manager, and press Run.
+Install Android Studio and use its Android SDK setup wizard. Open this project folder in Android Studio. Allow Gradle to sync, create an Android Virtual Device from Device Manager, and press Run.
 
 ## First run
 The recipe collection is inserted automatically when SQLite creates the database. Pantry items are empty until you add them. Data remains on the emulator/device between app launches unless app data is cleared or the app is uninstalled.
